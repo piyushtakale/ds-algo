@@ -1,0 +1,31 @@
+adts
+list - dynamic array, linked list
+queue - linked list based queue, array based queue, stack based queue
+map - tree map, hashmap/hash table
+vehicle - golf cart, bicycle, smart car
+
+big O notations:
+constant time - O(1)
+logarithmic time - O(log (n))
+linear time - O(n)
+Linearithmic time - O(nlog (n))
+Quadratic time - O(n^2)
+Cubic time - O(n^3)
+Exponential time - O(b^n)
+Factorial Time - O(n!)
+
+1. remove constant while calculating the big O
+2. f(n) = 7 log(n)^3 + 15n^2 + 2n^3 + 8 + O(f(n)) = O(n^3)
+
+
+
+Arrays:
+complexity
+        static  dynamic
+access  - O(1), O(1)
+search - O(n), O(n)
+Append - N/A , O(1)
+Insertion - N/A, O(n)
+Deletion - N/A, O(n)
+
+
